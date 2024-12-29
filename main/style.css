@@ -699,6 +699,10 @@ video {
   margin-top: 12rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .flex {
   display: flex;
 }
@@ -923,6 +927,58 @@ video {
   width: 49%;
 }
 
+.w-\[10\%\] {
+  width: 10%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[12\%\] {
+  width: 12%;
+}
+
+.w-\[14\%\] {
+  width: 14%;
+}
+
+.w-\[15\%\] {
+  width: 15%;
+}
+
+.w-\[8\%\] {
+  width: 8%;
+}
+
+.w-\[86\%\] {
+  width: 86%;
+}
+
+.w-\[13\%\] {
+  width: 13%;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
+.w-\[25\%\] {
+  width: 25%;
+}
+
+.w-\[75\%\] {
+  width: 75%;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
 .flex-none {
   flex: none;
 }
@@ -945,6 +1001,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.place-items-start {
+  place-items: start;
 }
 
 .place-items-end {
@@ -993,6 +1053,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-0 {
+  gap: 0px;
 }
 
 .self-center {
@@ -1247,6 +1311,10 @@ video {
   text-align: right;
 }
 
+.text-end {
+  text-align: end;
+}
+
 .font-Noto {
   font-family: Noto Sans JP, serif;
 }
@@ -1319,6 +1387,14 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[7px\] {
+  font-size: 7px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .font-\[700\] {
   font-weight: 700;
 }
@@ -1333,6 +1409,14 @@ video {
 
 .font-extralight {
   font-weight: 200;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
@@ -1463,6 +1547,25 @@ video {
   color: rgb(248 248 248 / var(--tw-text-opacity, 1));
 }
 
+.text-\[\#e\] {
+  color: #e;
+}
+
+.text-\[\#e3e5e5\] {
+  --tw-text-opacity: 1;
+  color: rgb(227 229 229 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#656868\] {
+  --tw-text-opacity: 1;
+  color: rgb(101 104 104 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#8b8d8d\] {
+  --tw-text-opacity: 1;
+  color: rgb(139 141 141 / var(--tw-text-opacity, 1));
+}
+
 .placeholder\:text-sm::-moz-placeholder {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1506,6 +1609,15 @@ video {
   border-bottom-color: rgb(220 38 38 / var(--tw-border-opacity, 1));
 }
 
+.hover\:border-b-\[\#\]:hover {
+  border-bottom-color: #;
+}
+
+.hover\:border-b-\[\#fb414e\]:hover {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(251 65 78 / var(--tw-border-opacity, 1));
+}
+
 .hover\:bg-\[\#fb414e\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(251 65 78 / var(--tw-bg-opacity, 1));
@@ -1532,4 +1644,12 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.active\:border:active {
+  border-width: 1px;
+}
+
+.active\:border-none:active {
+  border-style: none;
 }
