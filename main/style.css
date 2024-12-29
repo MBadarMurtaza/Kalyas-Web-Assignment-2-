@@ -639,6 +639,26 @@ video {
   margin-top: 6rem;
 }
 
+.-mt-5 {
+  margin-top: -1.25rem;
+}
+
+.-mt-3 {
+  margin-top: -0.75rem;
+}
+
+.-mt-4 {
+  margin-top: -1rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -693,6 +713,18 @@ video {
 
 .h-20 {
   height: 5rem;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[600px\] {
+  height: 600px;
 }
 
 .w-10 {
@@ -795,6 +827,22 @@ video {
   width: 100%;
 }
 
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[5\%\] {
+  width: 5%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[47\%\] {
+  width: 47%;
+}
+
 .list-none {
   list-style-type: none;
 }
@@ -813,6 +861,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.place-items-end {
+  place-items: end;
 }
 
 .place-items-center {
@@ -861,6 +913,10 @@ video {
 
 .self-center {
   align-self: center;
+}
+
+.justify-self-end {
+  justify-self: end;
 }
 
 .rounded {
@@ -940,6 +996,10 @@ video {
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#\] {
+  background-color: #;
 }
 
 .bg-\[url\(\'\/images\/header_image\.jpg\'\)\] {
@@ -1069,6 +1129,14 @@ video {
   padding-bottom: 4px;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1128,6 +1196,22 @@ video {
   line-height: 2.25rem;
 }
 
+.text-\[4px\] {
+  font-size: 4px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
 .font-\[700\] {
   font-weight: 700;
 }
@@ -1184,6 +1268,57 @@ video {
 .text-\[\#e3e5e3\] {
   --tw-text-opacity: 1;
   color: rgb(227 229 227 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#q\] {
+  color: #q;
+}
+
+.text-\[\#838383\] {
+  --tw-text-opacity: 1;
+  color: rgb(131 131 131 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#828282\] {
+  --tw-text-opacity: 1;
+  color: rgb(130 130 130 / var(--tw-text-opacity, 1));
+}
+
+.text-\[px\] {
+  color: px;
+}
+
+.text-\[\#82828\] {
+  color: #82828;
+}
+
+.text-\[\#8282\] {
+  color: #8282;
+}
+
+.text-\[\#514f4f\] {
+  --tw-text-opacity: 1;
+  color: rgb(81 79 79 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#3b3939\] {
+  --tw-text-opacity: 1;
+  color: rgb(59 57 57 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#464646\] {
+  --tw-text-opacity: 1;
+  color: rgb(70 70 70 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#565656\] {
+  --tw-text-opacity: 1;
+  color: rgb(86 86 86 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#616161\] {
+  --tw-text-opacity: 1;
+  color: rgb(97 97 97 / var(--tw-text-opacity, 1));
 }
 
 .hover\:border-b-2:hover {
